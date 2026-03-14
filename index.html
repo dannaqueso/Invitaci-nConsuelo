@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
 
@@ -41,6 +42,7 @@ display:flex;
 gap:28px;
 text-align:center;
 }
+
 .countdown small{
 font-size:14px;
 display:block;
@@ -82,18 +84,16 @@ font-size:18px;
 }
 
 </style>
+
 </head>
 
-
 <body>
-
 
 <!-- HERO -->
 
 <div class="section">
 <img src="assets/hero.jpg">
 </div>
-
 
 <!-- MENSAJE + CONTADOR -->
 
@@ -122,8 +122,11 @@ font-size:18px;
 
 </div>
 
-
 <!-- UBICACION -->
+
+<div class="section">
+
+<img src="assets/mapa-bg.jpg">
 
 <a href="https://www.google.com/maps/search/?api=1&query=Salón+Punta+del+Sol+Abelardo+L.+Rodríguez+1707+Aguascalientes" target="_blank">
 
@@ -139,7 +142,6 @@ src="https://www.google.com/maps?q=Salón%20Punta%20del%20Sol%20Abelardo%20L.%20
 
 </div>
 
-
 <!-- CONFIRMACION -->
 
 <div class="section">
@@ -148,15 +150,13 @@ src="https://www.google.com/maps?q=Salón%20Punta%20del%20Sol%20Abelardo%20L.%20
 
 <a class="confirmar"
 href="https://wa.me/524492644872?text=Confirmo%20mi%20asistencia%20al%20cumpleaños">
-Confirmar asistencia
-</a>
+Confirmar asistencia </a>
 
 </div>
 
-
 <script>
 
-const eventDate = new Date("Oct 12, 2026 18:00:00").getTime();
+const eventDate = new Date("Sep 5, 2026 16:00:00").getTime();
 
 setInterval(function(){
 
@@ -174,7 +174,6 @@ document.getElementById("minutos").innerHTML = minutes;
 },1000);
 
 </script>
-
 
 </body>
 </html>
